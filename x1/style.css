@@ -1,0 +1,22 @@
+
+ .login-content{
+    height: 100vh;
+   
+} 
+.login-user-text{
+  font-size: 31.352px;  
+} 
+ .login-text-continue{
+    font-weight: 600;
+} 
+.widget-content{
+    width: 400px;
+    height: 140px;
+    
+}
+.bg-gray-300{
+    background: #e2e8f0;
+}
+.main-content{
+    background-color: #f2fafc;
+}
