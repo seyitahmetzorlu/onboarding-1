@@ -1,0 +1,107 @@
+.pup-back{
+    height: 100vh;
+    display: flex;
+    background-color: rgb(0, 0, 0,50%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pup-content{
+    /* height: 540px; */
+    width: 640px;
+    background-color: white;
+    background-size: contain;
+    box-sizing: border-box;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+
+.open-box{
+    margin-top: 0!important;
+    opacity: 1!important;
+    transition: margin 0.5s,opacity 0.3s;
+    
+}
+.close-box{
+   
+    display: none!important;
+    transition: display 0.6s;
+}
+.pup{
+    opacity: 0;
+    margin-top: 150px;
+}
+.close-pup{
+    margin-top: 150px!important;
+    opacity: 0!important;
+    transition: margin 0.3s,opacity 0.3s;
+}
+.height-content{
+    margin-top: 50px;
+    opacity: 0;
+}
+.pup-container{
+    height: 100%;
+    padding: 50px 25px;
+}
+.pup-image-content{
+    text-align: center;
+    
+    
+    
+}
+.pup-image{
+    height: 210px;
+}
+
+.fantastic{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.74);
+    
+}
+.pup-text{
+    font-size: 20px;
+    
+    text-align: center;
+}
+.button-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button-add{
+    font-size: 1.2rem!important;
+    border: 2px solid #007bff!important;
+    font-weight: 500!important;
+    padding: .5rem .9rem;
+}
+
+
+.button-content a{text-decoration: none;}
+@media screen and (max-width:290px) {
+    .pup-content{width: 255px!important;}
+   
+    
+}
+@media screen and (max-width:759px) {
+    .pup-content{width: 90%!important;}
+    .pup-image{width: 150px;height: 150px;}
+    .fantastic{font-size: 22px;}
+    .pup-text{font-size: 15px;}
+    .button-add{font-size: .75rem!important;}
+   
+    
+}
+

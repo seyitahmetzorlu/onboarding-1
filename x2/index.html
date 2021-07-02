@@ -26,8 +26,8 @@
                     <div class="category-content-border">
                         <div class="category-content px-3 form-group">
                             <div class="category-flex">
-                                <ul class="category-box-content">
-                                    <li class="category-box-item mb-3">
+                                <ul id="category-box-content">
+                                    <li class="category-box-item selected mb-3">
                                         <label>
                                             <input type="radio" name="site-category" class="display-none" value="1">
                                             <div class="icon-container">
@@ -130,16 +130,15 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script>
-    //     $('.category-box-item').click(function(){
-    //         let id_check;
-    //     id_check=$('input[name="site-category"]:checked').val();
-    //     let input_parent = $('input[value="id_check"]').parent().parent();
-    //     console.log(input_parent);
-    //     $('.'+input_parent).addClass('selected')
-    //     console.log(id_check);
-
-
-    // }); 
+ var header = document.getElementById("category-box-content");
+var btns = header.getElementsByClassName("category-box-item");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("selected");
+  current[0].className = current[0].className.replace(" selected", "");
+  this.className += " selected";
+  });
+}
 
 
     </script>
