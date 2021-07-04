@@ -2,7 +2,7 @@
     height: 100vh;
     min-height: 100%;
     position: relative;
-    background-color:#f2fafc ;
+    background-color:#f7fafc ;
     display: flex;
     }
     .category-content-top{
@@ -26,7 +26,7 @@
     .content-title{
         font-weight: 600;
         text-align: center;
-        background-color: #f2fafc;
+        background-color: #f7fafc;
         z-index: 1;
         text-align: center;
     }
@@ -48,7 +48,7 @@
     .category-flex{
        max-width: 500px;
        width: 100%;
-       height: 10%;
+       
     }
     .category-box-content{
         margin: 0 -11px;
@@ -58,24 +58,7 @@
         flex-wrap: wrap;
     }
    
-label{
-        box-sizing: border-box;
-        color: #a0aec0;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        flex-direction: column;
-        align-items: center;
-        -webkit-box-pack: center;
-        justify-content: center;
-        font-size: 16px;
-        height: 100%;
-        line-height: 1;
-        padding: 16px 8px;
-        text-align: center;
-        text-decoration: none;
-        cursor: pointer;
-    }
+
     .icon-container{
         padding: 0;
         margin-top: -10px;
@@ -89,12 +72,19 @@ label{
     border-top: 1px solid #e2e8f0;
     }
     .contunie-button-content{
-      
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+  
+        display: flex;  
+        justify-content: space-between;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 500px;
     }
+    .contunie-button,.back-button{
+        font-weight: 600!important;
+        font-size: 1rem!important;
+        padding: .657rem 1.25rem!important;
+    }
+    
     .label-url{
         font-size: 18px;
         color: #4a5568;
@@ -113,9 +103,9 @@ label{
     .form-control-lg{
         display: block;
         width: 100%;
-        height: calc(1.5em + 2.25rem + 2px);
+        height: 70px!important;
         padding: 1.125rem 1.875rem;
-        font-size: 1.25rem;
+        font-size: 1.25rem!important;
         line-height: 1.5;
         border-radius: .5rem;
         font-weight: 400;

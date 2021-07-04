@@ -26,6 +26,9 @@
                     <div class="category-content-border">
                         <div class="category-content px-3 form-group">
                             <div class="category-flex">
+                                <label class="lower-title pt-3 pt-md-0">
+                                    Pick the industry that matches your website
+                                </label>
                                 <ul id="category-box-content">
                                     <li class="category-box-item selected mb-3">
                                         <label>
@@ -112,7 +115,13 @@
                 </div>
                 <div class="contunie-content">
                     <div class="contunie-button-content px-3 my-3 my-md-4">
-                        <button type="button" class="btn btn-primary disablebled">
+                        <button type="button" class="btn btn-link back-button">
+                            <i class="fas fa-chevron-left mr-2"></i>
+                            Back
+                        </button>
+
+
+                        <button type="button" class="btn btn-primary contunie-button disabled">
                             Continue
                             <i class="fas fa-chevron-right ml-2"></i>
                         </button>
@@ -134,11 +143,16 @@
 var btns = header.getElementsByClassName("category-box-item");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
+    $('.contunie-button').removeClass('disabled');
   var current = document.getElementsByClassName("selected");
   current[0].className = current[0].className.replace(" selected", "");
+
   this.className += " selected";
+  
   });
 }
+
+
 
 
     </script>

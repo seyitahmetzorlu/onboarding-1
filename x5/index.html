@@ -19,6 +19,25 @@
             border-color: #cbd5e0;
             white-space: pre-wrap;
         }
+        @media screen and (max-width:420px){
+    .pixel-icon{
+        margin-right: 10px!important;
+
+    }
+    .pixel-div-header-text h2{
+        font-size: 1.4rem;
+    }
+    .scan-button{
+        font-size: 0.75rem;
+    }
+    .pixel-div{
+        margin-top: 1.5rem!important;
+    }
+    .back-button-header{
+        font-size: .75rem!important;
+        margin-left: .5rem;
+    }
+}
     </style>
 </head>
 
@@ -27,7 +46,7 @@
         <div class="pixel-container">
             <div class="pixel-setting-container mx-auto">
                 <div class="pixel-back mt-4">
-                    <button type="button" class="btn btn-outline-primary">
+                    <button type="button" class="btn btn-outline-primary back-button-header">
                         <i class="fas fa-chevron-left mr-2"></i>
                         Back to Integrations
                     </button>
@@ -58,7 +77,7 @@
                                         Copy the Pixel code given below.
                                     </p>
                                 </div>
-                               <div class="border-gray-custom bg-white p-5 pixel-key-html" data-clipboard-text="<!-- Pixel Code for https://dev.socialproofy.io/ -->
+                               <div class="border-gray-custom bg-white p-5 mb-2 pixel-key-html" data-clipboard-text="<!-- Pixel Code for https://dev.socialproofy.io/ -->
 <script async src=&quot;https://dev.socialproofy.io/pixel/fy6xc2wjpwecz4vjegd1l3a0niun58ni&quot;></script>
 <!-- END Pixel Code -->">
                             <code class="text-secondary">&lt;!-- Pixel Code for https://dev.socialproofy.io/ --&gt;</code><br>
@@ -69,9 +88,7 @@
                             <code class="text-secondary">&lt;!-- END Pixel Code --&gt;</code>
                             <p class="btn btn-primary copy-clipboard impHide">Click to copy</p>
                         </div>
-                                    <div data-v-771ea444="" class="notice px-3">
-                                        Click to copy
-                                    </div>
+                                    
                                 
                                 <div class="mb-2">
                                     <div class="point-list mr-3 ml-2 mt-1">2</div>
@@ -105,7 +122,7 @@
                             </div>
                             <div class="scanner-area">
                                 <input type="url" name="pixelSiteUrl" class="form-control-scanner mr-3">
-                                <button type="button" class="btn  btn-primary">
+                                <button type="button" class="btn btn-primary scan-button">
                                     Scan for Pixel
                                 </button>
                             </div>
@@ -123,20 +140,7 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script>
-    //     $('.category-box-item').click(function(){
-    //         let id_check;
-    //     id_check=$('input[name="site-category"]:checked').val();
-    //     let input_parent = $('input[value="id_check"]').parent().parent();
-    //     console.log(input_parent);
-    //     $('.'+input_parent).addClass('selected')
-    //     console.log(id_check);
-
-
-    // }); 
-
-
-    </script>
+    
     <script>
         $(document).ready(function () {
             $('.pixel-key-html').click(function () {

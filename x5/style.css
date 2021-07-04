@@ -158,7 +158,9 @@ min-height: 100vh;
 }
 .pixel-scanner-title{
     font-weight: 600;
-    line-height: 0.7;
+    line-height: 1;
+    font-size: 1.1rem;
+    font-family: Proxima Nova,HK Grotesk,IBM Plex Sans,sans-serif;
 }
 .scanner-area{
     display: flex;
@@ -218,7 +220,7 @@ min-height: 100vh;
     cursor: pointer;
 }
 .border-gray-custom{
-    border: 1px solid rgb(55, 63, 67, rgba(55,63,67,.125) );
+    border: 1px solid rgba(55,63,67,.125);
     border-radius: 0.25rem;
 }
 .copy-clipboard{
@@ -228,4 +230,7 @@ min-height: 100vh;
 }
 .impHide{
     display: none!important;
+}
+.scan-button{
+    padding: .375rem 1.6rem!important;
 }
