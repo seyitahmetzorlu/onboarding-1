@@ -54,47 +54,7 @@ min-height: 100vh;
     float: left;
     position: absolute;
 }
-/* .clickToCopy{
-    cursor: pointer;
-    pointer-events: all;
-}
 
-.clickToCopy:hover{
-    display:-webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-}
-.pixel-code-content{
-    border-radius: .375rem;
-    background-color: #fff;
-    display: block;
-    font-size: 13px;
-    word-break: break-all;
-    word-wrap: break-word;
-    color: #ccc;
-    border: 1px solid #ccc;
-}
-.h1js{
-    display: block;
-    overflow-x: auto;
-    background: #fefefe;
-    color: #545454;
-    padding: .5rem;
-}
-
-.hljs-deletion, .hljs-name, .hljs-regexp, .hljs-selector-class, .hljs-selector-id, .hljs-tag, .hljs-template-variable, .hljs-variable {
-    color: #d91e18;
-}
-.hljs-keyword, .hljs-selector-tag {
-    color: #7928a1;
-}
-.hljs-addition, .hljs-bullet, .hljs-string, .hljs-symbol {
-    color: green;
-}
-.hljs-attribute, .hljs-built_in, .hljs-builtin-name, .hljs-link, .hljs-literal, .hljs-meta, .hljs-number, .hljs-params, .hljs-type {
-    color: #aa5d00;
-} */
 .pixel-status-icon {
     border-radius: 50%;
     -webkit-box-shadow: 0 0 0 0 #000;

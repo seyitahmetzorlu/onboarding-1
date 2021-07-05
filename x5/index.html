@@ -77,9 +77,8 @@
                                         Copy the Pixel code given below.
                                     </p>
                                 </div>
-                               <div class="border-gray-custom bg-white p-5 mb-2 pixel-key-html" data-clipboard-text="<!-- Pixel Code for https://dev.socialproofy.io/ -->
-<script async src=&quot;https://dev.socialproofy.io/pixel/fy6xc2wjpwecz4vjegd1l3a0niun58ni&quot;></script>
-<!-- END Pixel Code -->">
+                               <div class="border-gray-custom bg-white p-5 mb-2 pixel-key-html" onclick="copyToClipboard('.pixel-key-html code')" data-clipboard-text="
+                               <!-- Pixel Code for https://dev.socialproofy.io/ --><script async src=&quot;https://dev.socialproofy.io/pixel/fy6xc2wjpwecz4vjegd1l3a0niun58ni&quot;></script><!-- END Pixel Code -->">
                             <code class="text-secondary">&lt;!-- Pixel Code for https://dev.socialproofy.io/ --&gt;</code><br>
                             <code>
                                 <span class="text-danger">&lt;script</span>
@@ -162,7 +161,16 @@
     
             
         });
+        function copyToClipboard(element) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(element).text()).select();
+            document.execCommand("copy");
+            $temp.remove();
+        }
     </script>
+    
+    
 </body>
 
 </html>
