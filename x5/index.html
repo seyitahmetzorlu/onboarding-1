@@ -77,18 +77,17 @@
                                         Copy the Pixel code given below.
                                     </p>
                                 </div>
-                               <div class="border-gray-custom bg-white p-5 mb-2 pixel-key-html" onclick="copyToClipboard('.pixel-key-html code')" data-clipboard-text="
+                               <div class="border-gray-custom bg-white p-5 mb-2 pixel-key-html" onclick="copyToClipboard('.pixel')"  data-clipboard-text="
                                <!-- Pixel Code for https://dev.socialproofy.io/ --><script async src=&quot;https://dev.socialproofy.io/pixel/fy6xc2wjpwecz4vjegd1l3a0niun58ni&quot;></script><!-- END Pixel Code -->">
-                            <code class="text-secondary">&lt;!-- Pixel Code for https://dev.socialproofy.io/ --&gt;</code><br>
-                            <code>
-                                <span class="text-danger">&lt;script</span>
-                                async src="https://dev.socialproofy.io/pixel/fy6xc2wjpwecz4vjegd1l3a0niun58ni"
-                                <span class="text-danger">&gt;&lt;/script&gt;</span></code><br>
-                            <code class="text-secondary">&lt;!-- END Pixel Code --&gt;</code>
+                            <code class="text-secondary pixel">&lt;!-- Pixel Code for https://dev.socialproofy.io/ --&gt;</code><br>
+                            <code class="text-danger pixel">
+                             &lt;script async src="https://dev.socialproofy.io/pixel/fy6xc2wjpwecz4vjegd1l3a0niun58ni"&gt;&lt;/script&gt;</code><br>
+                            <code class="text-secondary pixel">
+                             &lt;!-- END Pixel Code --&gt;</code>
                             <p class="btn btn-primary copy-clipboard impHide">Click to copy</p>
                         </div>
                                     
-                                
+                               
                                 <div class="mb-2">
                                     <div class="point-list mr-3 ml-2 mt-1">2</div>
                                     <p class="card-text ml-5" style="line-height: 2;">
@@ -135,12 +134,18 @@
 
     </main>
 
-
-
+    
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     
     <script>
+        function copyToClipboard(element) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(element).text()).select();
+            document.execCommand("copy");
+            $temp.remove();
+        }
         $(document).ready(function () {
             $('.pixel-key-html').click(function () {
                 // new ClipboardJS(".pixel-key-html");
@@ -161,16 +166,21 @@
     
             
         });
+
+
+        
         function copyToClipboard(element) {
-            var $temp = $("<input>");
+        
+
+            var $temp = $("<textarea>");
             $("body").append($temp);
             $temp.val($(element).text()).select();
             document.execCommand("copy");
             $temp.remove();
         }
     </script>
-    
-    
+   
+
 </body>
 
 </html>
