@@ -53,7 +53,7 @@
         <div class="login-content d-flex justify-content-center align-items-center">
             <div class="content-width text-center w-100" style="max-width: 500px;">
                 <div data-v-2a70f95c="" class="widget-content align-items-center position-relative d-flex justify-content-center rounded text-center  mb-5 mx-auto animated">
-                   <img src="../x1/no-data.png" alt="Responsive image" class="img-fluid col-sm-12 col-md-12 col-lg-12 p-0" alt="">
+                   <img src="no-data.png" alt="Responsive image" class="img-fluid col-sm-12 col-md-12 col-lg-12 p-0" alt="">
                     
                     </div>
             <h2 class="login-user-text  text-center">
@@ -271,7 +271,7 @@
             
                 <div class="category-content-buttom-integration">
                     <h1 class="content-title-integration mb-3 pt-5">
-                        Let's add SocialProofy to your website
+                        Let's add Social Proofy to your website
                     </h1>
                     <div class="category-content-border-integration mb-3 mt-3">
                         <div class="category-content-integration m-auto">
@@ -279,14 +279,18 @@
                                 Select a platform to use for
                                 <strong>www.lrturkey.org/</strong>
                             </span>
+                            <form action="" method="post">
+                            <label>
+                            
+                            
                             <div class="edit-site-content ml-1">
-                                <a href="#" title="Edit Site" target="_self" class="edit_site">
-                                    <i  class="fa fa-pen mr-1" style="font-size: 16px;"></i>
-                                </a>
-                                
+                            <input type="submit" name="site-category" class="display-none"  value="1">
+                                 
+                                <i id="icon-pen" class="fa fa-pen mr-1"></i>
+                                 
                             </div>
-                           
-
+                            </label>
+                            </form>
                         </div>
                     </div>
                     <div class="category-flex-integration mt-2 mb-4">
@@ -313,7 +317,7 @@
                                      <input type="submit" name="integrationCategory" class="display-none"  value="1">
                                      <!-- <input type="submit" value=""> -->
                                          <div class="integration-icon">
-                                             <img src="../x4/images/html.png" alt="Add to your HTML" class="img-integration">
+                                             <img src=" images/html.png" alt="Add to your HTML" class="img-integration">
                                          </div>
                                          <span>Add to your HTML</span>
                                          
@@ -328,7 +332,7 @@
                                     <div class="integration-box">
 
                                         <div class="integration-icon">
-                                            <img src="../x4/images/gtm.png" alt="Google Tag Manager" class="img-integration">
+                                            <img src=" images/gtm.png" alt="Google Tag Manager" class="img-integration">
                                         </div>
                                         <span>Google Tag Manager</span>
                                     </div>
@@ -337,7 +341,7 @@
                                     <div class="integration-box">
                                         <span data-v-739f0b54="" class="badge integration-badge font-size-11 badge-light badge-pill">Native Plugin</span>
                                         <div class="integration-icon">
-                                            <img src="../x4/images/bigcommerce.png" alt="BigCommerce" class="img-integration">
+                                            <img src=" images/bigcommerce.png" alt="BigCommerce" class="img-integration">
                                         </div>
                                         <span>BigCommerce</span>
                                     </div>
@@ -346,7 +350,7 @@
                                     <div class="integration-box">
                                         <span data-v-739f0b54="" class="badge integration-badge font-size-11 badge-light badge-pill">Native Plugin</span>
                                         <div class="integration-icon">
-                                            <img src="../x4/images/magento.svg" alt="Magento" class="img-integration">
+                                            <img src=" images/magento.svg" alt="Magento" class="img-integration">
                                         </div>
                                         <span>Magento</span>
                                     </div>
@@ -357,7 +361,7 @@
                                     <div class="integration-box">
                                         <span data-v-739f0b54="" class="badge integration-badge font-size-11 badge-light badge-pill">Native Plugin</span>
                                         <div class="integration-icon">
-                                            <img src="../x4/images/prestashop.png" alt="Prestashop" class="img-integration">
+                                            <img src=" images/prestashop.png" alt="Prestashop" class="img-integration">
                                         </div>
                                         <span>Prestashop</span>
                                     </div>
@@ -366,7 +370,7 @@
                                     <div class="integration-box">
                                         <span data-v-739f0b54="" class="badge integration-badge font-size-11 badge-light badge-pill">Native Plugin</span>
                                         <div class="integration-icon">
-                                            <img src="../x4/images/woocommerce.png" alt="WooCommerce" class="img-integration">
+                                            <img src=" images/woocommerce.png" alt="WooCommerce" class="img-integration">
                                         </div>
                                         <span>WooCommerce</span>
                                     </div>
@@ -374,7 +378,7 @@
                                  <li><a class="d-none">Wordpress</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/wordpress.png" alt="Wordpress" class="img-integration">
+                                            <img src=" images/wordpress.png" alt="Wordpress" class="img-integration">
                                         </div>
                                         <span>Wordpress</span>
                                     </div>
@@ -382,7 +386,7 @@
                                  <li><a class="d-none">AppDrag</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/appdrag.png" alt="AppDrag" class="img-integration">
+                                            <img src=" images/appdrag.png" alt="AppDrag" class="img-integration">
                                         </div>
                                         <span>AppDrag</span>
                                     </div>
@@ -390,7 +394,7 @@
                                  <li><a class="d-none">AppointmentCore</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/appointment_core.png" alt="AppointmentCore" class="img-integration">
+                                            <img src=" images/appointment_core.png" alt="AppointmentCore" class="img-integration">
                                         </div>
                                         <span>AppointmentCore</span>
                                     </div>
@@ -398,7 +402,7 @@
                                  <li><a class="d-none">Bookmark</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/bookmark.png" alt="Bookmark" class="img-integration">
+                                            <img src=" images/bookmark.png" alt="Bookmark" class="img-integration">
                                         </div>
                                         <span>Bookmark</span>
                                     </div>
@@ -406,7 +410,7 @@
                                  <li><a class="d-none">BigMarker</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/bigmarker.png" alt="BigMarker" class="img-integration">
+                                            <img src=" images/bigmarker.png" alt="BigMarker" class="img-integration">
                                         </div>
                                         <span>BigMarker</span>
                                     </div>
@@ -414,7 +418,7 @@
                                  <li><a class="d-none">Blogger</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/blogger.png" alt="Blogger" class="img-integration">
+                                            <img src=" images/blogger.png" alt="Blogger" class="img-integration">
                                         </div>
                                         <span>Blogger</span>
                                     </div>
@@ -422,7 +426,7 @@
                                  <li><a class="d-none">Brizy</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/brizy.png" alt="Brizy" class="img-integration">
+                                            <img src=" images/brizy.png" alt="Brizy" class="img-integration">
                                         </div>
                                         <span>Brizy</span>
                                     </div>
@@ -430,7 +434,7 @@
                                  <li><a class="d-none">Clickfunnels</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/clickfunnels.png" alt="Clickfunnels" class="img-integration">
+                                            <img src=" images/clickfunnels.png" alt="Clickfunnels" class="img-integration">
                                         </div>
                                         <span>Clickfunnels</span>
                                     </div>
@@ -438,7 +442,7 @@
                                  <li><a class="d-none">Cloudflare</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/cloudflare.png" alt="Cloudflare" class="img-integration">
+                                            <img src=" images/cloudflare.png" alt="Cloudflare" class="img-integration">
                                         </div>
                                         <span>Cloudflare</span>
                                     </div>
@@ -446,7 +450,7 @@
                                  <li><a class="d-none">Cognito Forms</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/cognito_forms.png" alt="Cognito Forms" class="img-integration">
+                                            <img src=" images/cognito_forms.png" alt="Cognito Forms" class="img-integration">
                                         </div>
                                         <span>Cognito Forms</span>
                                     </div>
@@ -454,7 +458,7 @@
                                  <li><a class="d-none">ConvertBox</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/convertbox.png" alt=" " class="img-integration">
+                                            <img src=" images/convertbox.png" alt=" " class="img-integration">
                                         </div>
                                         <span>ConvertBox</span>
                                     </div>
@@ -462,7 +466,7 @@
                                  <li><a class="d-none">Convertful</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/convertful.png" alt="Convertful" class="img-integration">
+                                            <img src=" images/convertful.png" alt="Convertful" class="img-integration">
                                         </div>
                                         <span>Convertful</span>
                                     </div>
@@ -470,7 +474,7 @@
                                  <li><a class="d-none">Convertri</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/convertri.png" alt="Convertri" class="img-integration">
+                                            <img src=" images/convertri.png" alt="Convertri" class="img-integration">
                                         </div>
                                         <span>Convertri</span>
                                     </div>
@@ -478,7 +482,7 @@
                                  <li><a class="d-none">Cratejoy</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/cratejoy.png" alt="Cratejoy" class="img-integration">
+                                            <img src=" images/cratejoy.png" alt="Cratejoy" class="img-integration">
                                         </div>
                                         <span>Cratejoy</span>
                                     </div>
@@ -486,7 +490,7 @@
                                  <li><a class="d-none">Demio</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/demio.png" alt="Demio" class="img-integration">
+                                            <img src=" images/demio.png" alt="Demio" class="img-integration">
                                         </div>
                                         <span>Demio</span>
                                     </div>
@@ -494,7 +498,7 @@
                                  <li><a class="d-none">Dragdropr</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/dragdropr.png" alt="Dragdropr" class="img-integration">
+                                            <img src=" images/dragdropr.png" alt="Dragdropr" class="img-integration">
                                         </div>
                                         <span>Dragdropr</span>
                                     </div>
@@ -502,7 +506,7 @@
                                  <li><a class="d-none">Duda</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/duda.png" alt="Duda" class="img-integration">
+                                            <img src=" images/duda.png" alt="Duda" class="img-integration">
                                         </div>
                                         <span>Duda</span>
                                     </div>
@@ -510,7 +514,7 @@
                                  <li><a class="d-none">Easy Digital Downloads</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/easy_digital_downloads.png" alt="Easy Digital Downloads" class="img-integration">
+                                            <img src=" images/easy_digital_downloads.png" alt="Easy Digital Downloads" class="img-integration">
                                         </div>
                                         <span>Easy Digital Downloads</span>
                                     </div>
@@ -518,7 +522,7 @@
                                  <li><a class="d-none">EKM</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/ekm.png" alt="EKM" class="img-integration">
+                                            <img src=" images/ekm.png" alt="EKM" class="img-integration">
                                         </div>
                                         <span>EKM</span>
                                     </div>
@@ -526,7 +530,7 @@
                                  <li><a class="d-none">Elite Funnels</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/elitefunnels.png" alt="Elite Funnels" class="img-integration">
+                                            <img src=" images/elitefunnels.png" alt="Elite Funnels" class="img-integration">
                                         </div>
                                         <span>Elite Funnels</span>
                                     </div>
@@ -534,7 +538,7 @@
                                  <li><a class="d-none">EverWebinar</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/everwebinar.png" alt="EverWebinar" class="img-integration">
+                                            <img src=" images/everwebinar.png" alt="EverWebinar" class="img-integration">
                                         </div>
                                         <span>EverWebinar</span>
                                     </div>
@@ -542,7 +546,7 @@
                                  <li><a class="d-none">FastSpring</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/fastspring.png" alt="FastSpring" class="img-integration">
+                                            <img src=" images/fastspring.png" alt="FastSpring" class="img-integration">
                                         </div>
                                         <span>FastSpring</span>
                                     </div>
@@ -550,7 +554,7 @@
                                  <li><a class="d-none">Funnel WL</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/fastfunnels.png" alt="Funnel WL" class="img-integration">
+                                            <img src=" images/fastfunnels.png" alt="Funnel WL" class="img-integration">
                                         </div>
                                         <span>Funnel WL</span>
                                     </div>
@@ -558,7 +562,7 @@
                                  <li><a class="d-none">Gumroad</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/gumroad.png" alt="Gumroad" class="img-integration">
+                                            <img src=" images/gumroad.png" alt="Gumroad" class="img-integration">
                                         </div>
                                         <span>Gumroad</span>
                                     </div>
@@ -566,7 +570,7 @@
                                  <li><a class="d-none">Gurucan</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/gurucan.png" alt="Gurucan" class="img-integration">
+                                            <img src=" images/gurucan.png" alt="Gurucan" class="img-integration">
                                         </div>
                                         <span>Gurucan</span>
                                     </div>
@@ -574,7 +578,7 @@
                                  <li><a class="d-none">Heights</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/heights.jpg" alt="Heights" class="img-integration">
+                                            <img src=" images/heights.jpg" alt="Heights" class="img-integration">
                                         </div>
                                         <span>Heights</span>
                                     </div>
@@ -582,7 +586,7 @@
                                  <li><a class="d-none">HeySummit</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/heysummit.png" alt="HeySummit" class="img-integration">
+                                            <img src=" images/heysummit.png" alt="HeySummit" class="img-integration">
                                         </div>
                                         <span>HeySummit</span>
                                     </div>
@@ -590,7 +594,7 @@
                                  <li><a class="d-none">Instapage</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/instapage.png" alt="Instapage" class="img-integration">
+                                            <img src=" images/instapage.png" alt="Instapage" class="img-integration">
                                         </div>
                                         <span>Instapage</span>
                                     </div>
@@ -598,7 +602,7 @@
                                  <li><a class="d-none">Infusionsoft</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/Infusionsoft.png" alt="Infusionsoft" class="img-integration">
+                                            <img src=" images/Infusionsoft.png" alt="Infusionsoft" class="img-integration">
                                         </div>
                                         <span>Infusionsoft</span>
                                     </div>
@@ -606,7 +610,7 @@
                                  <li><a class="d-none">Jocmla</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/joomla.png" alt="Jocmia" class="img-integration">
+                                            <img src=" images/joomla.png" alt="Jocmia" class="img-integration">
                                         </div>
                                         <span>Jocmla</span>
                                     </div>
@@ -614,7 +618,7 @@
                                  <li><a class="d-none">Jvzoo</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/jvzoo.png" alt="Jvzoo" class="img-integration">
+                                            <img src=" images/jvzoo.png" alt="Jvzoo" class="img-integration">
                                         </div>
                                         <span>Jvzoo</span>
                                     </div>
@@ -623,7 +627,7 @@
                                  <li><a class="d-none">Kajabi</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/kajabi.png" alt="Kajabi" class="img-integration">
+                                            <img src=" images/kajabi.png" alt="Kajabi" class="img-integration">
                                         </div>
                                         <span>Kajabi</span>
                                     </div>
@@ -631,7 +635,7 @@
                                  <li><a class="d-none">Kartra</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/kartra.png" alt="Kartra" class="img-integration">
+                                            <img src=" images/kartra.png" alt="Kartra" class="img-integration">
                                         </div>
                                         <span>Kartra</span>
                                     </div>
@@ -639,7 +643,7 @@
                                  <li><a class="d-none">Landingi</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/landingi.png" alt="Landingi" class="img-integration">
+                                            <img src=" images/landingi.png" alt="Landingi" class="img-integration">
                                         </div>
                                         <span>Landingi</span>
                                     </div>
@@ -647,7 +651,7 @@
                                  <li><a class="d-none">LeadCart</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/leadcart.png" alt="LeadCart" class="img-integration">
+                                            <img src=" images/leadcart.png" alt="LeadCart" class="img-integration">
                                         </div>
                                         <span>LeadCart</span>
                                     </div>
@@ -655,7 +659,7 @@
                                  <li><a class="d-none">LeadPages</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/leadpages.png" alt="LeadPages" class="img-integration">
+                                            <img src=" images/leadpages.png" alt="LeadPages" class="img-integration">
                                         </div>
                                         <span>LeadPages</span>
                                     </div>
@@ -663,7 +667,7 @@
                                  <li><a class="d-none">Learnyst</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/learnyst.png" alt="Learnyst" class="img-integration">
+                                            <img src=" images/learnyst.png" alt="Learnyst" class="img-integration">
                                         </div>
                                         <span>Learnyst</span>
                                     </div>
@@ -671,7 +675,7 @@
                                  <li><a class="d-none">Lightspeed</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/lightspeed.png" alt="Lightspeed" class="img-integration">
+                                            <img src=" images/lightspeed.png" alt="Lightspeed" class="img-integration">
                                         </div>
                                         <span>Lightspeed</span>
                                     </div>
@@ -679,7 +683,7 @@
                                  <li><a class="d-none">Neto</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/neto.png" alt="Neto" class="img-integration">
+                                            <img src=" images/neto.png" alt="Neto" class="img-integration">
                                         </div>
                                         <span>Neto</span>
                                     </div>
@@ -687,7 +691,7 @@
                                  <li><a class="d-none">NewZenler</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/newzenler.png" alt="NewZenler" class="img-integration">
+                                            <img src=" images/newzenler.png" alt="NewZenler" class="img-integration">
                                         </div>
                                         <span>NewZenler</span>
                                     </div>
@@ -695,7 +699,7 @@
                                  <li><a class="d-none">OptimizerPress</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/optimizer_press.png" alt="OptimizerPress" class="img-integration">
+                                            <img src=" images/optimizer_press.png" alt="OptimizerPress" class="img-integration">
                                         </div>
                                         <span>OptimizerPress</span>
                                     </div>
@@ -703,7 +707,7 @@
                                  <li><a class="d-none">PageCloud</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/pagecloud.png" alt="PageCloud" class="img-integration">
+                                            <img src=" images/pagecloud.png" alt="PageCloud" class="img-integration">
                                         </div>
                                         <span>PageCloud</span>
                                     </div>
@@ -711,7 +715,7 @@
                                  <li><a class="d-none">PageWiz</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/pagewiz.png" alt="PageWiz" class="img-integration">
+                                            <img src=" images/pagewiz.png" alt="PageWiz" class="img-integration">
                                         </div>
                                         <span>PageWiz</span>
                                     </div>
@@ -719,7 +723,7 @@
                                  <li><a class="d-none">Podia</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/podia.png" alt="Podia" class="img-integration">
+                                            <img src=" images/podia.png" alt="Podia" class="img-integration">
                                         </div>
                                         <span>Podia</span>
                                     </div>
@@ -727,7 +731,7 @@
                                  <li><a class="d-none">Popupsmart</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/popupsmart.png" alt="Popupsmart" class="img-integration">
+                                            <img src=" images/popupsmart.png" alt="Popupsmart" class="img-integration">
                                         </div>
                                         <span>Popupsmart</span>
                                     </div>
@@ -735,7 +739,7 @@
                                  <li><a class="d-none">SamCart</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/samcart.png" alt="SamCart" class="img-integration">
+                                            <img src=" images/samcart.png" alt="SamCart" class="img-integration">
                                         </div>
                                         <span>SamCart</span>
                                     </div>
@@ -744,7 +748,7 @@
                                  <li><a class="d-none">SendOwl</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/sendowl.png" alt="SendOwl" class="img-integration">
+                                            <img src=" images/sendowl.png" alt="SendOwl" class="img-integration">
                                         </div>
                                         <span>SendOwl</span>
                                     </div>
@@ -752,7 +756,7 @@
                                  <li><a class="d-none">Shopify</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/shopify.png" alt="Shopify" class="img-integration">
+                                            <img src=" images/shopify.png" alt="Shopify" class="img-integration">
                                         </div>
                                         <span>Shopify</span>
                                     </div>
@@ -760,7 +764,7 @@
                                  <li><a class="d-none">Simvoly</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/simvoly.png" alt="Simvoly" class="img-integration">
+                                            <img src=" images/simvoly.png" alt="Simvoly" class="img-integration">
                                         </div>
                                         <span>Simvoly</span>
                                     </div>
@@ -769,7 +773,7 @@
                                     <li><a class="d-none">Strikingly</a>
                                         <div class="integration-box">
                                             <div class="integration-icon">
-                                                <img src="../x4/images/strikingly.png" alt="Strikingly" class="img-integration">
+                                                <img src=" images/strikingly.png" alt="Strikingly" class="img-integration">
                                             </div>
                                             <span>Strikingly</span>
                                         </div>
@@ -777,7 +781,7 @@
                                      <li><a class="d-none">Squarespace</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/squarespace.png" alt="Squarespace" class="img-integration">
+                                            <img src=" images/squarespace.png" alt="Squarespace" class="img-integration">
                                         </div>
                                         <span>Squarespace</span>
                                     </div>
@@ -785,7 +789,7 @@
                                  <li><a class="d-none">Takedrop</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/takedrop.png" alt="Takedrop" class="img-integration">
+                                            <img src=" images/takedrop.png" alt="Takedrop" class="img-integration">
                                         </div>
                                         <span>Takedrop</span>
                                     </div>
@@ -793,7 +797,7 @@
                                  <li><a class="d-none">Teachable</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/teachable.png" alt="Teachable" class="img-integration">
+                                            <img src=" images/teachable.png" alt="Teachable" class="img-integration">
                                         </div>
                                         <span>Teachable</span>
                                     </div>
@@ -801,7 +805,7 @@
                                  <li><a class="d-none">Teachery</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/teachery.png" alt="Teachery" class="img-integration">
+                                            <img src=" images/teachery.png" alt="Teachery" class="img-integration">
                                         </div>
                                         <span>Teachery</span>
                                     </div>
@@ -809,7 +813,7 @@
                                  <li><a class="d-none">Thinkific</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/thinkific.png" alt="Thinkific" class="img-integration">
+                                            <img src=" images/thinkific.png" alt="Thinkific" class="img-integration">
                                         </div>
                                         <span>Thinkific</span>
                                     </div>
@@ -817,7 +821,7 @@
                                  <li><a class="d-none">ThriveCart</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/thrivecart.png" alt="ThriveCart" class="img-integration">
+                                            <img src=" images/thrivecart.png" alt="ThriveCart" class="img-integration">
                                         </div>
                                         <span>ThriveCart</span>
                                     </div>
@@ -825,7 +829,7 @@
                                  <li><a class="d-none">Unbounce</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/unbounce.png" alt="Unbounce" class="img-integration">
+                                            <img src=" images/unbounce.png" alt="Unbounce" class="img-integration">
                                         </div>
                                         <span>Unbounce</span>
                                     </div>
@@ -833,7 +837,7 @@
                                  <li><a class="d-none">Webflow</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/webflow.png" alt="Webflow" class="img-integration">
+                                            <img src=" images/webflow.png" alt="Webflow" class="img-integration">
                                         </div>
                                         <span>Webflow</span>
                                     </div>
@@ -841,7 +845,7 @@
                                  <li><a class="d-none">Weebly</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/weebly.png" alt="Weebly" class="img-integration">
+                                            <img src=" images/weebly.png" alt="Weebly" class="img-integration">
                                         </div>
                                         <span>Weebly</span>
                                     </div>
@@ -849,7 +853,7 @@
                                  <li><a class="d-none">WebinarJam</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/webinarjam.png" alt="WebinarJam" class="img-integration">
+                                            <img src=" images/webinarjam.png" alt="WebinarJam" class="img-integration">
                                         </div>
                                         <span>WebinarJam</span>
                                     </div>
@@ -857,7 +861,7 @@
                                  <li><a class="d-none">WebWare</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/webwave.png" alt="WebWare" class="img-integration">
+                                            <img src=" images/webwave.png" alt="WebWare" class="img-integration">
                                         </div>
                                         <span>WebWare</span>
                                     </div>
@@ -865,7 +869,7 @@
                                  <li><a class="d-none">Wishpond</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/wishpond.png" alt="Wishpond" class="img-integration">
+                                            <img src=" images/wishpond.png" alt="Wishpond" class="img-integration">
                                         </div>
                                         <span>Wishpond</span>
                                     </div>
@@ -873,7 +877,7 @@
                                  <li><a class="d-none">Wix</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/wix.png" alt="Wix" class="img-integration">
+                                            <img src=" images/wix.png" alt="Wix" class="img-integration">
                                         </div>
                                         <span>Wix</span>
                                     </div>
@@ -881,7 +885,7 @@
                                  <li><a class="d-none">WHMCS</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/WHMCS.png" alt="WHMCS" class="img-integration">
+                                            <img src=" images/WHMCS.png" alt="WHMCS" class="img-integration">
                                         </div>
                                         <span>WHMCS</span>
                                     </div>
@@ -889,7 +893,7 @@
                                  <li><a class="d-none">WP FluentForms</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/wpfluentform.png" alt="WP FluentForms" class="img-integration">
+                                            <img src=" images/wpfluentform.png" alt="WP FluentForms" class="img-integration">
                                         </div>
                                         <span>WP FluentForms</span>
                                     </div>
@@ -897,7 +901,7 @@
                                  <li><a class="d-none">X-Cart</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/x-cart.png" alt="Cart" class="img-integration">
+                                            <img src=" images/x-cart.png" alt="Cart" class="img-integration">
                                         </div>
                                         <span>X-Cart</span>
                                     </div>
@@ -905,7 +909,7 @@
                                  <li><a class="d-none">3DCart</a>
                                     <div class="integration-box">
                                         <div class="integration-icon">
-                                            <img src="../x4/images/3Dcart.png" alt="3DCart" class="img-integration">
+                                            <img src=" images/3Dcart.png" alt="3DCart" class="img-integration">
                                         </div>
                                         <span>3DCart</span>
                                     </div>
@@ -932,6 +936,32 @@
     if(isset($_POST["integrationCategory"])){
    
     ?>
+    <div class="pup-body">
+    <div class="pup-back d-none">
+        
+        <div class="pup-content pup" >
+            
+            <div class="pup-container">
+            <div class="pup-image-content">
+                <img src="images/ok.png" alt="" class="pup-image" >
+            </div>
+            <p class="fantastic mt-2">Fantastic</p>
+           
+            <div class="pup-text-content mt-4">
+               <p class="pup-text">You've successfully added the Pixel to your website. Let's create your first Notification!</p> 
+            </div>
+            <div class="button-content mt-5">
+            <a href="#">
+                <button class="btn btn-outline-primary button-add">
+                Add your first Notification
+                </button></a>
+            
+        </div>
+    
+        </div>
+        </div>
+    
+        </div>
     <main class="pixel-main">
         <div class="pixel-container">
             <div class="pixel-setting-container mx-auto">
@@ -950,15 +980,15 @@
                 <div class="pixel-div card-1 card-default mt-5 p-4">
                     <div class="pixel-div-header d-flex mb-4">
                         <div class="pixel-icon mr-4">
-                            <img src="../x4/images/html.png" class="pixel-icon-div" alt="">
+                            <img src=" images/html.png" class="pixel-icon-div" alt="">
 
                         </div>
                         <div class="pixel-div-header-text">
                             <h2 class="mt-2">
-                                Installing SocialProofy With HTML
+                                Installing Social Proofy With HTML
                             </h2>
                             <span class="text-muted">
-                                Installing SocialProofy with HTML is really easy and only takes a couple of minutes.
+                                Installing Social Proofy with HTML is really easy and only takes a couple of minutes.
                             </span>
                             <a target="_blank" href="#">Lead more</a>
                         </div>
@@ -1019,7 +1049,7 @@
                             <div class="scanner-area">
                             
                                 <input type="text" name="pixelSiteUrl" placeholder="www.example.com" required="required" class="form-control-scanner mr-3">
-                                <button type="submit" class="btn btn-primary scan-button">
+                                <button type="button" class="btn btn-primary scan-button">
                                     Scan for Pixel
                                 </button>
                                 
@@ -1034,44 +1064,11 @@
         </div>
 
     </main>
+</div>
     <?php
     }
     ?>
-    <!-- x5 end -->
-    <!-- x6 start -->
-    <?php
-    if(isset($_POST["pixelSiteUrl"])){
-   
-   ?>
-    <div class="pup-back">
-        
-    <div class="pup-content pup" >
-        
-        <div class="pup-container">
-        <div class="pup-image-content">
-            <img src="../x6/images/ok.png" alt="" class="pup-image" >
-        </div>
-        <p class="fantastic mt-2">Fantastic</p>
-       
-        <div class="pup-text-content mt-4">
-           <p class="pup-text">You've successfully added the Pixel to your website. Let's create your first Notification!</p> 
-        </div>
-        <div class="button-content mt-5">
-        <a href="#">
-            <button class="btn btn-outline-primary button-add">
-            Add your first Notification
-            </button></a>
-        
-    </div>
-
-    </div>
-    </div>
-
-    </div>
-    <?php
-    }
-    ?>
-<!-- x6 end -->
+    
 
 
 
@@ -1086,8 +1083,44 @@
             $('.category-main-url').addClass('d-none');
             $('.category-main').removeClass('d-none');
         });
+        </script>
+ 
+    <script>
+        $('.scan-button').click(function () {
+            
+            $('.pup-back').removeClass('d-none');
+            $(".pup-content").removeClass("close-pup");
+            $(".pup-content").addClass("pup");
+    $('.pup-back').removeClass('close-box');
+            function OpacityDelay() {
+    
+    $('.pup-content').addClass('open-box');
+    
+    
+}
+
+setTimeout(OpacityDelay, 1000);
+
+
+
+$('.button-add').click(function () {
+$(".pup-content").removeClass("open-box");
+$(".pup-content").removeClass("pup");
+$('.pup-content').addClass('close-pup');
+function OpacityDelay2() {
+$('.pup-back').addClass('close-box');
+    
+    
+}
+
+setTimeout(OpacityDelay2, 600);
+
+});
+        });
+        
         
     </script>
+   
     <script>
  var header = document.getElementById("category-box-content");
 var btns = header.getElementsByClassName("category-box-item");
@@ -1186,29 +1219,7 @@ if($('.category-box-item').hasClass('selected')==1){
     <script>
 
            
-function OpacityDelay() {
-    
-    $('.pup-content').addClass('open-box');
-    
-}
 
-setTimeout(OpacityDelay, 1000);
-
-
-
-$('.button-add').click(function () {
-$(".pup-content").removeClass("open-box");
-$(".pup-content").removeClass("pup");
-$('.pup-content').addClass('close-pup');
-function OpacityDelay2() {
-$('.pup-back').addClass('close-box');
-    
-    
-}
-
-setTimeout(OpacityDelay2, 600);
-
-});
 
 </script>   
 </body>
