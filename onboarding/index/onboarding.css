@@ -771,6 +771,7 @@
         top: 10px;
         right: 15px;
     }
+
     .impHide{
         display: none!important;
     }
@@ -894,7 +895,22 @@
     
 /* x6 end     */
     
-    
+.pixel-key{
+    display: block;
+    overflow: auto;
+    background: #fefefe;
+    color: #545454;
+    padding: .5em;
+}
+.pixel-flex{
+    height: 67.6px;
+    display: flex;
+    align-items: center;
+}
+.copy-style{
+    top: 4px!important;
+    right: 4px!important;
+}
     
     
     

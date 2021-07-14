@@ -46,7 +46,7 @@
 </head>
 <body>
     <?php
-    if(isset($_POST["site-category"])||isset($_POST["siteUrl"])||isset($_POST["integrationCategory"])||isset($_POST["pixelSiteUrl"])||isset($_POST["backToIntegrations"])){}else{
+    if(isset($_POST["site-category"])||isset($_POST["siteUrl"])||isset($_POST["integrationCategory"])||isset($_POST["integrationCategory2"])||isset($_POST["integrationCategory3"])||isset($_POST["pixelSiteUrl"])||isset($_POST["backToIntegrations"])){}else{
     ?>
     <main class="h-100 bg-gray-100 position-relative min-h-screen main-content" >
     <div class="content d-flex justify-content-center">
@@ -338,13 +338,19 @@
                                     </div>
                                  </li>
                                  <li><a class="d-none">BigCommerce</a>
+                                 <form action="" method="post">
+                                 <label >
                                     <div class="integration-box">
+                                    <input type="submit" name="integrationCategory3" class="display-none"  value="3">
                                         <span data-v-739f0b54="" class="badge integration-badge font-size-11 badge-light badge-pill">Native Plugin</span>
                                         <div class="integration-icon">
                                             <img src=" images/bigcommerce.png" alt="BigCommerce" class="img-integration">
                                         </div>
                                         <span>BigCommerce</span>
                                     </div>
+                                    </label>  
+                                      
+                                    </form>
                                  </li>
                                  <li><a class="d-none">Magento</a>
                                     <div class="integration-box">
@@ -358,13 +364,19 @@
                                  
                                     
                                  <li><a class="d-none">Prestashop</a>
+                                 <form action="" method="post">
+                                 <label >
                                     <div class="integration-box">
+                                    <input type="submit" name="integrationCategory2" class="display-none"  value="4">
                                         <span data-v-739f0b54="" class="badge integration-badge font-size-11 badge-light badge-pill">Native Plugin</span>
                                         <div class="integration-icon">
                                             <img src=" images/prestashop.png" alt="Prestashop" class="img-integration">
                                         </div>
                                         <span>Prestashop</span>
                                     </div>
+                                    </label>  
+                                      
+                                    </form>
                                  </li>
                                  <li><a class="d-none">WooCommerce</a>
                                     <div class="integration-box">
@@ -1068,7 +1080,285 @@
     <?php
     }
     ?>
+    <?php
+    if(isset($_POST["integrationCategory2"])){
+   
+    ?>
+    <div class="pup-body">
+    <div class="pup-back d-none">
+        
+        <div class="pup-content pup" >
+            
+            <div class="pup-container">
+            <div class="pup-image-content">
+                <img src="images/ok.png" alt="" class="pup-image" >
+            </div>
+            <p class="fantastic mt-2">Fantastic</p>
+           
+            <div class="pup-text-content mt-4">
+               <p class="pup-text">You've successfully added the Pixel to your website. Let's create your first Notification!</p> 
+            </div>
+            <div class="button-content mt-5">
+            <a href="#">
+                <button class="btn btn-outline-primary button-add">
+                Add your first Notification
+                </button></a>
+            
+        </div>
     
+        </div>
+        </div>
+    
+        </div>
+        <main class="pixel-main">
+    <div class="pixel-container">
+        <div class="pixel-setting-container mx-auto">
+            <div class="pixel-back mt-4">
+                <form action="" method="post">
+                    <label>
+                    <input type="submit" name="backToIntegrations" style="display:none;">
+                <div  class="btn btn-outline-primary back-button-header">
+                
+                    <i class="fas fa-chevron-left mr-2"></i>
+                    Back to Integrations
+                </div>
+                </label>
+                </form>
+            </div>
+            <div class="pixel-div card-1 card-default mt-5 p-4">
+                <div class="pixel-div-header d-flex mb-4">
+                    <div class="pixel-icon mr-4">
+                        <img src=" images/prestashop.png" class="pixel-icon-div" alt="">
+
+                    </div>
+                    <div class="pixel-div-header-text">
+                        <h2 class="mt-2">
+                            Installing Social Proofy With Prestashop
+                        </h2>
+                        <span class="text-muted">
+                            Installing Social Proofy with Prestashop is really easy and only takes a couple of minutes.
+                        </span>
+                        <a target="_blank" href="#">Lead more</a>
+                    </div>
+                </div>
+                <div class="pixel-body-content">
+                    <div>
+                        <div>
+                            <div class="mb-3">
+                                <div class="point-list mr-3 ml-2 mt-1">1</div>
+                                <p class="card-text ml-5" style="line-height: 2;">
+                                    In PrestaShop, go to <b>Module Manager</b>>
+                                    <b>Upload a module</b>and upload the 
+                                    <a download href=""><strong>Social Proofy module</strong></a>
+                                </p>
+                            </div>
+                            <div class="mb-2">
+                                <div class="point-list mr-3 ml-2 mt-1">2</div>
+                                <p class="card-text ml-5" style="line-height: 2;">
+                                    Copy and paste the Pixel belox in the Site Key field.
+                                </p>
+                            </div>
+                            <div class="position-relative ml-5">
+                            <div class="border-gray-custom bg-white px-3 py-1 m-0 raunded pixel-key-html pixel-flex"
+                                onclick="copyToClipboard('.pixel-key')"
+                                data-clipboard-text="">
+                                <code class="p-0 pixel-key">c09c0a7d-90eb-4e72-925f-e3b6bfc6755c</code><br>
+                               
+                                <p class="btn btn-primary copy-clipboard copy-style impHide">Click to copy</p>
+                            </div>
+                        </div>
+                        
+
+                            <div class="mb-2">
+                                <div class="point-list mr-3 ml-2 mt-1">3</div>
+                                <p class="card-text ml-5" style="line-height: 2;">
+                                    Copy paste the API key below in the API Key field.
+                                </p>
+                            </div>
+                            <div class="position-relative ml-5">
+                                <div class="border-gray-custom bg-white px-3 py-1 m-0 raunded pixel-key-html pixel-flex"
+                                    onclick="copyToClipboard('.pixel-key')"
+                                    data-clipboard-text="">
+                                    <code class="p-0 pixel-key">kdacdWmPY9xL8a98OcJAllvdUyRwYmqVqs5h67lXrgGNDTMdvh1GMbOknswR</code><br>
+                                   
+                                    <p class="btn btn-primary copy-clipboard copy-style impHide">Click to copy</p>
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <div class="point-list mr-3 ml-2 mt-1">3</div>
+                                <p class="card-text ml-5" style="line-height: 2;">
+                                    Use the Pixel Scanner below to check that your Pixel is active.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="pixel-scanner-div mb-4 mt-2">
+                <div class="card-1 card-default p-2">
+                    <div class="card-body">
+                        <div class="pixel-scanner-heading mb-3 d-flex">
+                            <span class="pixel-status mr-3 border-0 shadow-none d-block">
+                                <div title="Pixel not active" class="pixel-status-icon red">
+
+                                </div>
+                            </span>
+                            <h5 class="pixel-scanner-title">Pixel Scanner</h5>
+                        </div>
+                        <form action="" method="post">
+                        <div class="scanner-area">
+                        
+                            <input type="text" name="pixelSiteUrl" placeholder="www.example.com" required="required" class="form-control-scanner mr-3">
+                            <button type="button" class="btn btn-primary scan-button">
+                                Scan for Pixel
+                            </button>
+                            
+                        </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</main>
+</div>
+    <?php
+    }
+    ?>
+    <?php
+    if(isset($_POST["integrationCategory3"])){
+   
+    ?>
+    <div class="pup-body">
+    <div class="pup-back d-none">
+        
+        <div class="pup-content pup" >
+            
+            <div class="pup-container">
+            <div class="pup-image-content">
+                <img src="images/ok.png" alt="" class="pup-image" >
+            </div>
+            <p class="fantastic mt-2">Fantastic</p>
+           
+            <div class="pup-text-content mt-4">
+               <p class="pup-text">You've successfully added the Pixel to your website. Let's create your first Notification!</p> 
+            </div>
+            <div class="button-content mt-5">
+            <a href="#">
+                <button class="btn btn-outline-primary button-add">
+                Add your first Notification
+                </button></a>
+            
+        </div>
+    
+        </div>
+        </div>
+    
+        </div>
+        <main class="pixel-main">
+    <div class="pixel-container">
+        <div class="pixel-setting-container mx-auto">
+            <div class="pixel-back mt-4">
+                <form action="" method="post">
+                    <label>
+                    <input type="submit" name="backToIntegrations" style="display:none;">
+                <div  class="btn btn-outline-primary back-button-header">
+                
+                    <i class="fas fa-chevron-left mr-2"></i>
+                    Back to Integrations
+                </div>
+                </label>
+                </form>
+            </div>
+            <div class="pixel-div card-1 card-default mt-5 p-4">
+                <div class="pixel-div-header d-flex mb-4">
+                    <div class="pixel-icon mr-4">
+                        <img src=" images/bigcommerce.png" class="pixel-icon-div" alt="">
+
+                    </div>
+                    <div class="pixel-div-header-text">
+                        <h2 class="mt-2">
+                            Installing Social Proofy With BigCommerce
+                        </h2>
+                        <span class="text-muted">
+                            Easily install Social Proofy on your BigCommerce website and connect your store data.
+                        </span>
+                        <a target="_blank" href="#">Lead more</a>
+                    </div>
+                </div>
+                <div class="pixel-body-content">
+                    <div>
+                        <div>
+                            <div class="mb-2">
+                                <div class="point-list mr-3 ml-2 mt-1">1</div>
+                                <p class="card-text ml-5" style="line-height: 2;">
+                                    In the BigCommerce dashboard visit <strong>Apps &gt; My Apps</strong>.
+                                </p>
+                            </div>
+                            <div class="mb-2">
+                                <div class="point-list mr-3 ml-2 mt-1">2</div>
+                                <p class="card-text ml-5" style="line-height: 2;">
+                                    Choose <strong><a target="_blank" href="">Social Proofy</a></strong> from the BigCommerce App Market.
+                                </p>
+                            </div>
+                            <div class="mb-2">
+                                <div class="point-list mr-3 ml-2 mt-1">3</div>
+                                <p class="card-text ml-5" style="line-height: 2;">
+                                    Confirm all the necessary permissions required by the app.
+                                </p>
+                            </div>
+                        
+
+                            <div class="mb-2">
+                                <div class="point-list mr-3 ml-2 mt-1">4</div>
+                                <p class="card-text ml-5" style="line-height: 2;">
+                                    Use the Pixel Scanner below to check that your Pixel is active.
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="pixel-scanner-div mb-4 mt-2">
+                <div class="card-1 card-default p-2">
+                    <div class="card-body">
+                        <div class="pixel-scanner-heading mb-3 d-flex">
+                            <span class="pixel-status mr-3 border-0 shadow-none d-block">
+                                <div title="Pixel not active" class="pixel-status-icon red">
+
+                                </div>
+                            </span>
+                            <h5 class="pixel-scanner-title">Pixel Scanner</h5>
+                        </div>
+                        <form action="" method="post">
+                        <div class="scanner-area">
+                        
+                            <input type="text" name="pixelSiteUrl" placeholder="www.example.com" required="required" class="form-control-scanner mr-3">
+                            <button type="button" class="btn btn-primary scan-button">
+                                Scan for Pixel
+                            </button>
+                            
+                        </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</main>
+</div>
+    <?php
+    }
+    ?>
 
 
 
